@@ -12,21 +12,41 @@
 		A1A207AB24D0E45100494D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A207AA24D0E45100494D0A /* Assets.xcassets */; };
 		A1A207AE24D0E45100494D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A207AD24D0E45100494D0A /* Preview Assets.xcassets */; };
 		A1A207B124D0E45100494D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A207AF24D0E45100494D0A /* Main.storyboard */; };
+		A1A207C024D0E6D100494D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A207BF24D0E6D100494D0A /* AppDelegate.swift */; };
+		A1A207C224D0E6D100494D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A207C124D0E6D100494D0A /* SceneDelegate.swift */; };
+		A1A207C624D0E6D300494D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A207C524D0E6D300494D0A /* Assets.xcassets */; };
+		A1A207C924D0E6D300494D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A207C824D0E6D300494D0A /* Preview Assets.xcassets */; };
+		A1A207CC24D0E6D300494D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A207CA24D0E6D300494D0A /* LaunchScreen.storyboard */; };
+		A1A207D124D0E6E400494D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A207A824D0E44E00494D0A /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1A207A324D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGConditionalModifierTreeHoverIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A207A324D0E44E00494D0A /* NGConditionalModifierIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGConditionalModifierIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A207A624D0E44E00494D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A207A824D0E44E00494D0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1A207AA24D0E45100494D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A207AD24D0E45100494D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1A207B024D0E45100494D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1A207B224D0E45100494D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1A207B324D0E45100494D0A /* NGConditionalModifierTreeHoverIssue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NGConditionalModifierTreeHoverIssue.entitlements; sourceTree = "<group>"; };
+		A1A207B324D0E45100494D0A /* NGConditionalModifierIssue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NGConditionalModifierIssue.entitlements; sourceTree = "<group>"; };
+		A1A207BD24D0E6D100494D0A /* NGConditionalModifierIssue-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NGConditionalModifierIssue-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A207BF24D0E6D100494D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1A207C124D0E6D100494D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1A207C524D0E6D300494D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A207C824D0E6D300494D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1A207CB24D0E6D300494D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1A207CD24D0E6D300494D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A1A207A024D0E44E00494D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A207BA24D0E6D100494D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,7 +59,8 @@
 		A1A2079A24D0E44E00494D0A = {
 			isa = PBXGroup;
 			children = (
-				A1A207A524D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue */,
+				A1A207A524D0E44E00494D0A /* NGConditionalModifierIssue */,
+				A1A207BE24D0E6D100494D0A /* NGConditionalModifierIssue-iOS */,
 				A1A207A424D0E44E00494D0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +68,13 @@
 		A1A207A424D0E44E00494D0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1A207A324D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue.app */,
+				A1A207A324D0E44E00494D0A /* NGConditionalModifierIssue.app */,
+				A1A207BD24D0E6D100494D0A /* NGConditionalModifierIssue-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1A207A524D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue */ = {
+		A1A207A524D0E44E00494D0A /* NGConditionalModifierIssue */ = {
 			isa = PBXGroup;
 			children = (
 				A1A207A624D0E44E00494D0A /* AppDelegate.swift */,
@@ -60,10 +82,10 @@
 				A1A207AA24D0E45100494D0A /* Assets.xcassets */,
 				A1A207AF24D0E45100494D0A /* Main.storyboard */,
 				A1A207B224D0E45100494D0A /* Info.plist */,
-				A1A207B324D0E45100494D0A /* NGConditionalModifierTreeHoverIssue.entitlements */,
+				A1A207B324D0E45100494D0A /* NGConditionalModifierIssue.entitlements */,
 				A1A207AC24D0E45100494D0A /* Preview Content */,
 			);
-			path = NGConditionalModifierTreeHoverIssue;
+			path = NGConditionalModifierIssue;
 			sourceTree = "<group>";
 		};
 		A1A207AC24D0E45100494D0A /* Preview Content */ = {
@@ -74,12 +96,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A1A207BE24D0E6D100494D0A /* NGConditionalModifierIssue-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1A207BF24D0E6D100494D0A /* AppDelegate.swift */,
+				A1A207C124D0E6D100494D0A /* SceneDelegate.swift */,
+				A1A207C524D0E6D300494D0A /* Assets.xcassets */,
+				A1A207CA24D0E6D300494D0A /* LaunchScreen.storyboard */,
+				A1A207CD24D0E6D300494D0A /* Info.plist */,
+				A1A207C724D0E6D300494D0A /* Preview Content */,
+			);
+			path = "NGConditionalModifierIssue-iOS";
+			sourceTree = "<group>";
+		};
+		A1A207C724D0E6D300494D0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1A207C824D0E6D300494D0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1A207A224D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue */ = {
+		A1A207A224D0E44E00494D0A /* NGConditionalModifierIssue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1A207B624D0E45100494D0A /* Build configuration list for PBXNativeTarget "NGConditionalModifierTreeHoverIssue" */;
+			buildConfigurationList = A1A207B624D0E45100494D0A /* Build configuration list for PBXNativeTarget "NGConditionalModifierIssue" */;
 			buildPhases = (
 				A1A2079F24D0E44E00494D0A /* Sources */,
 				A1A207A024D0E44E00494D0A /* Frameworks */,
@@ -89,9 +132,26 @@
 			);
 			dependencies = (
 			);
-			name = NGConditionalModifierTreeHoverIssue;
+			name = NGConditionalModifierIssue;
 			productName = NGConditionalModifierTreeHoverIssue;
-			productReference = A1A207A324D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue.app */;
+			productReference = A1A207A324D0E44E00494D0A /* NGConditionalModifierIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A207BC24D0E6D100494D0A /* NGConditionalModifierIssue-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A207CE24D0E6D300494D0A /* Build configuration list for PBXNativeTarget "NGConditionalModifierIssue-iOS" */;
+			buildPhases = (
+				A1A207B924D0E6D100494D0A /* Sources */,
+				A1A207BA24D0E6D100494D0A /* Frameworks */,
+				A1A207BB24D0E6D100494D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NGConditionalModifierIssue-iOS";
+			productName = "NGConditionalModifierTreeHoverIssue-iOS";
+			productReference = A1A207BD24D0E6D100494D0A /* NGConditionalModifierIssue-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,9 +166,12 @@
 					A1A207A224D0E44E00494D0A = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					A1A207BC24D0E6D100494D0A = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
-			buildConfigurationList = A1A2079E24D0E44E00494D0A /* Build configuration list for PBXProject "NGConditionalModifierTreeHoverIssue" */;
+			buildConfigurationList = A1A2079E24D0E44E00494D0A /* Build configuration list for PBXProject "NGConditionalModifierIssue" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1A207A224D0E44E00494D0A /* NGConditionalModifierTreeHoverIssue */,
+				A1A207A224D0E44E00494D0A /* NGConditionalModifierIssue */,
+				A1A207BC24D0E6D100494D0A /* NGConditionalModifierIssue-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +201,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1A207BB24D0E6D100494D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A207CC24D0E6D300494D0A /* LaunchScreen.storyboard in Resources */,
+				A1A207C924D0E6D300494D0A /* Preview Assets.xcassets in Resources */,
+				A1A207C624D0E6D300494D0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,6 +223,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1A207B924D0E6D100494D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A207C024D0E6D100494D0A /* AppDelegate.swift in Sources */,
+				A1A207C224D0E6D100494D0A /* SceneDelegate.swift in Sources */,
+				A1A207D124D0E6E400494D0A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -158,6 +242,14 @@
 				A1A207B024D0E45100494D0A /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1A207CA24D0E6D300494D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A207CB24D0E6D300494D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,14 +375,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NGConditionalModifierTreeHoverIssue/NGConditionalModifierTreeHoverIssue.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NGConditionalModifierIssue/NGConditionalModifierIssue.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"NGConditionalModifierTreeHoverIssue/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NGConditionalModifierIssue/Preview Content\"";
 				DEVELOPMENT_TEAM = 29P3YRFLV5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NGConditionalModifierTreeHoverIssue/Info.plist;
+				INFOPLIST_FILE = NGConditionalModifierIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -307,14 +399,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NGConditionalModifierTreeHoverIssue/NGConditionalModifierTreeHoverIssue.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NGConditionalModifierIssue/NGConditionalModifierIssue.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"NGConditionalModifierTreeHoverIssue/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NGConditionalModifierIssue/Preview Content\"";
 				DEVELOPMENT_TEAM = 29P3YRFLV5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NGConditionalModifierTreeHoverIssue/Info.plist;
+				INFOPLIST_FILE = NGConditionalModifierIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -326,10 +418,57 @@
 			};
 			name = Release;
 		};
+		A1A207CF24D0E6D300494D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NGConditionalModifierTreeHoverIssue-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 29P3YRFLV5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NGConditionalModifierTreeHoverIssue-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahgilmore.NGConditionalModifierTreeHoverIssue-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A207D024D0E6D300494D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NGConditionalModifierTreeHoverIssue-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 29P3YRFLV5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NGConditionalModifierTreeHoverIssue-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahgilmore.NGConditionalModifierTreeHoverIssue-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1A2079E24D0E44E00494D0A /* Build configuration list for PBXProject "NGConditionalModifierTreeHoverIssue" */ = {
+		A1A2079E24D0E44E00494D0A /* Build configuration list for PBXProject "NGConditionalModifierIssue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1A207B424D0E45100494D0A /* Debug */,
@@ -338,11 +477,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1A207B624D0E45100494D0A /* Build configuration list for PBXNativeTarget "NGConditionalModifierTreeHoverIssue" */ = {
+		A1A207B624D0E45100494D0A /* Build configuration list for PBXNativeTarget "NGConditionalModifierIssue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1A207B724D0E45100494D0A /* Debug */,
 				A1A207B824D0E45100494D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A207CE24D0E6D300494D0A /* Build configuration list for PBXNativeTarget "NGConditionalModifierIssue-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A207CF24D0E6D300494D0A /* Debug */,
+				A1A207D024D0E6D300494D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
