@@ -70,3 +70,6 @@ Actual: Nothing is printed
 Note: Removing the @ViewBuilder annotation from the body, wrapping the body return views in AnyView, or returning a Group with both views nested doesn't seem to have any effect
 
 Note: This issue doesn't seem to happen on iOS (tested on the 14.0 simulator). The NGConditionalModifierIssue-iOS target demonstrates an iOS app with the same content view.
+
+More Info:
+- https://twitter.com/noahsark769/status/1288256379640139776?s=20
